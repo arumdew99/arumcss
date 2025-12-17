@@ -1,0 +1,139 @@
+.header{
+    background-image: url('b_2.jpg');
+    color:rgb(204, 32, 135);
+    border-style: dashed;
+}
+.bggal{
+    background-image: linear-gradient(rgb(219, 133, 198),white,rgb(219, 133, 198));
+    text-align: center;
+}
+.rwite{
+    color: rgb(63, 4, 75);
+    border-style: ridge; width: 1305px; padding: 15px;
+    text-align: center;
+}
+.tiw{
+    margin-top: 150px;
+    color:crimson;
+}
+.konten{
+    background-image: url('b_3.jpg');
+    text-align: center;
+    padding-top: 130px;
+}
+.ab{
+    margin-right: 90px;
+}
+.profil{
+    text-align: center;
+    background-image: linear-gradient(to right, #f1c9d7, #cf7497);
+}
+.tngh{
+    border: 10px solid white;
+    padding: 15px;
+    border-image: url(b_2.jpg) 30% round;
+}
+.menu{
+    background-image: url('b-4.jpg');
+    padding-top: 50px;
+}
+a:hover{
+    background-color: #ffb6c1;
+    color:white color:rgb(204, 32, 135);
+}
+.footer{
+    background-image: url('b_5.jpg');
+    text-align: center;
+    color:rgb(204, 32, 135);
+    border-style: dashed;
+    padding: 1px;
+    width: 98%;
+    height: 68px;
+}
+.tengh{
+    place-items: center;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: linear-gradient(to right, #ffd4e2, #ffdbe9);
+    border-radius: 18px;
+    margin: 20px auto;
+    width: 90%;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+.hero-content {
+    width: 55%;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero-content h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #e65a93;
+    animation: fadeDown 1s ease-in-out;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #444;
+}
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: #e65a93;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.hero-img img {
+    width: 90px;
+    border-radius: 50%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+@keyframes fadeDown {
+    from { opacity: 0; transform: translateY(-20px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+.container{
+    background: linear-gradient(to right, #ffd4e2, #eca1be);
+    border: 1px solid rgb(211, 97, 114);
+    border-radius: 18px;
+    padding: 25px;
+    width: 780px;
+    height: 310px;
+    box-shadow: 0 4px 8px rgb(0,0,0,0.1);
+}
+.h2-container{
+    color: rgb(240, 86, 170);
+    text-align: center;
+    margin border-bottom: 100px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 35px;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 5px dotted #e65a93;
+}
+.contact label{
+    font-weight: bold;
+    color: #e989b0;
+    margin-inline-start: 25px;
+}
+.contact-detail{
+    color: #ce3a75;
+    text-align: right;
+    word-break: break-all;
+}
+.bgcolor{
+background: linear-gradient(to right, #ffd4e2, #f0c9d8);
+text-align: center;
+padding-left: 150px;
+
+}
